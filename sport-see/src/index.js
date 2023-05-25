@@ -3,11 +3,25 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {
+    BrowserRouter,
+    Routes,
+    Route
+} from "react-router-dom";
+import Profil from "./pages/profil/Profil";
+import Home from "./pages/home/Home";
+import NavHorizontal from "./components/NavHorizontal/NavHorizontal";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+        <NavHorizontal />
+        <Routes>
+            <Route path="/" element={<Profil />} > </Route>
+            <Route path="/home" element={<Home />} />
+        </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
