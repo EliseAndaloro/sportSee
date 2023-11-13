@@ -13,12 +13,10 @@ import ActivityBarChart from "../../components/Recharts/BarChart";
 import ActivityRadarChart from "../../components/Recharts/RadarChart";
 import ActivityRadialBarChart from "../../components/Recharts/RadialBarChart";
 import NavVertical from "../../components/NavVertical/NavVertical";
+import ActivityLineChart from "../../components/Recharts/LineChart";
 
 //import dataUser from "../../services/api/mock";
 import dataUser from "../../services/api/call";
-
-import PropTypes from "prop-types";
-import ActivityLineChart from "../../components/Recharts/LineChart";
 
 /** *
  * [Dashbord is A function that fetches and displays user data.]
