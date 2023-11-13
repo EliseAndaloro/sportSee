@@ -1,7 +1,7 @@
 .horizon {
     height: 80px;
     width: 100%;
-    background-color: var(--noir);
+    background-color: black;
 }
 .horizon header {
     display: flex;
@@ -31,7 +31,7 @@ nav ul {
     list-style: none;
 }
 
-.navLink.active {
+.navLink:hover {
     color: red;
 }
 

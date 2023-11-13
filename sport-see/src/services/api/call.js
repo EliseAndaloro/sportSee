@@ -4,7 +4,8 @@ import { AverageSessionsData } from "../models/AverageSessionsData";
 import { PerformanceData } from "../models/PerformanceData";
 import PropTypes from "prop-types";
 
-const url = "http://localhost:3000/user";
+const url = "http://localhost:3001/user";
+//const url = "http://localhost:8080/src/mocks/data.json";
 //console.log(url);
 
 //Ce code définit une fonction appelée getData qui envoie une requête HTTP à une URL spécifiée par la variable url.

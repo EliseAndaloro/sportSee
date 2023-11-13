@@ -4,7 +4,7 @@
     align-items: center;
     height: 857px;
     width: 117px;
-    background-color: var(--noir);
+    background-color: black !important;
 }
 .navIcone {
     display: flex;
@@ -16,15 +16,20 @@
     margin-bottom: 164px;
 }
 
+.copiryght {
+    color: #ffffff;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg)
+}
+
 Button {
     border-radius: 6px;
     background-color: black;
+    border: none;
 }
 
 Button:hover {
-    background-color: red;
-    box-shadow: 0px 0px 6px 3px red;
-    border: none;
+    border: red solid 2px;
 }
 @media screen and (min-width: 412px) and (max-width: 780px) {
     .vertical {

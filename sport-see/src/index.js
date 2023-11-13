@@ -8,9 +8,8 @@ import {
     Routes,
     Route
 } from "react-router-dom";
-import Profil from "./pages/profil/Profil";
-import Home from "./pages/home/Home";
 import NavHorizontal from "./components/NavHorizontal/NavHorizontal";
+import Dashbord from "./pages/dashbord/Dashboard";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,8 +17,7 @@ root.render(
     <BrowserRouter>
         <NavHorizontal />
         <Routes>
-            <Route path="/" element={<Profil />} > </Route>
-            <Route path="/home" element={<Home />} />
+            <Route path="/user/:id" element={<Dashbord />} />
         </Routes>
     </BrowserRouter>
   </React.StrictMode>

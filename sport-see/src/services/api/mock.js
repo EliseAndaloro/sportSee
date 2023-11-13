@@ -9,7 +9,7 @@ import {
     USER_ACTIVITY,
     USER_AVERAGE_SESSIONS,
     USER_PERFORMANCE,
-} from "../../mocks/data";
+} from "../../mocks/data.js";
 
 /**
  * [getUserMainData Retrieves a user's main data based on the specified ID.]
