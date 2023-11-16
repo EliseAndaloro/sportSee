@@ -15,7 +15,7 @@ function NavHorizontal() {
                 <img src={logo} alt="logo SportSee" />
                 <nav>
                     <ul>
-                        <NavLink to="/home" className="navLink">
+                        <NavLink to="/" className="navLink">
                             <li>Accueil</li>
                         </NavLink>
                         <NavLink to="/" className="navLink">
