@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {
     BrowserRouter,
@@ -10,6 +9,8 @@ import {
 } from "react-router-dom";
 import NavHorizontal from "./components/NavHorizontal/NavHorizontal";
 import Dashbord from "./pages/dashbord/Dashboard";
+import Error from './pages/error/Error';
+import Home from './pages/home/Home';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,6 +19,8 @@ root.render(
         <NavHorizontal />
         <Routes>
             <Route path="/user/:id" element={<Dashbord />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/error" element={<Error />} />
         </Routes>
     </BrowserRouter>
   </React.StrictMode>
