@@ -20,7 +20,7 @@ root.render(
         <Routes>
             <Route path="/user/:id" element={<Dashbord />} />
             <Route path="/" element={<Home />} />
-            <Route path="/error" element={<Error />} />
+            <Route path="/*" element={<Error />} />
         </Routes>
     </BrowserRouter>
   </React.StrictMode>
